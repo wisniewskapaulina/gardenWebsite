@@ -1,1 +1,1 @@
-See LIVE https://wisniewskapaulina.github.io/gardenWebsite/
+https://wisniewskapaulina.github.io/gardenWebsite/
