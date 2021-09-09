@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.1/tailwind.min.css" integrity="sha512-biy/TXdue7ElI4oop0vK1o0JVMwDtG2AeA1VEqJU3Z6LqZMMi6KTbc2ND1MC557MijurEJSPDVHV3WgwBgF1Pw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./img/kwiatek.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./script.js" defer ></script>
+  <title>Zacisze - Rodzinny Ogród Działkowy w Toruniu</title>
+</head>
+
+
+
+<body class="text-gray-800">
+  <!-- navbar  -->
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <p class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">Okręg
+          Toruńsko-Włocławski</p>
+      </div>
+
+      <!-- social media w navbarze  -->
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+
+          <!-- ikona 1  -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"><i class="text-blue-500 fab fa-facebook text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Share</span></a>
+          </li>
+
+          <!-- ikona 2  -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo"><i class="text-blue-400 fab fa-twitter text-lg leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Tweet</span></a>
+          </li>
+
+          <!-- moje konto przycisk -->
+          <li class="flex items-center">
+            <button
+              class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+              type="button" style="transition: all 0.15s ease 0s;">
+              <i class="fa fa-user"></i> Moje konto
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- sekcja główna  -->
+  <main>
+    <div class="relative pt-16 pb-32 flex items-center justify-center"
+      style="min-height: 75vh;">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style='background-image: url("https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");'>
+        <!-- czarny overlay  -->
+        <span class="w-full h-full absolute opacity-50 bg-black"></span>
+      </div>
+      <div class="relative" data-aos="fade-in">
+        <div class="flex justify-center">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="p-10">
+              <h1 class="text-white font-semibold text-4xl">
+                Rodzinny Ogródek Działkowy w Toruniu "Zacisze "
+              </h1>
+              <p class="mt-4 text-lg text-gray-200">
+                Witamy serdecznie na naszej stronie! Mamy nadzieję, iż znajdziecie tu Państwo wszelkie niezbędne
+                informacje na temat ogródków działkowych jak i pracach Zarządu oraz strona ułatwi kontakt między
+                członkami naszej działkowej społeczności.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- porady 3 bloki -->
+    <section class="bg-gray-300 -mt-36">
+      <div class="mx-auto px-6" data-aos="fade-up">
+        <div class="flex flex-wrap">
+          <!-- 1 porada  -->
+          <div class="lg:pt-12 pt-6 md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                  <i class="fas fa-seedling"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Pielęgnacja roślin</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Rośliny kwitnące wymagają odpowiednich warunków w zależności od ich gatunku. Należy ustawiać je w
+                  odpowiednim dla nich oświetleniu oraz regularnie nawozić.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 porada   -->
+          <div class="md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-500">
+                  <i class="fas fa-hand-holding-water"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Podlewanie</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Rośliny doniczkowe należy podlewać, aby dostarczyć im niezbędnej do życia wody. Zapotrzebowanie roślin
+                  doniczkowych na wodę zmienia się wraz z ich wzrostem.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 porada  -->
+          <div class="lg:pt-12 pt-6 md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                  <i class="fas fa-bacon"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Pielenie</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Chwasty potrafią zagłuszyć uprawiane przez nas rośliny, osłabiać je, ograniczać ich wzrost i utrudniać
+                  im dostęp do substancji odżywczych, dlatego należy je usuwać.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- karty  -->
+    <div class="bg-gray-300" id="wiadomosci">
+      <div class="content-center items-center justify-center pt-40">
+
+        <!-- Header Text-->
+        <h1 class="text-center text-3xl font-bold p-6 bg-gray-300 text-white">Najnowsze wiadomości</h1>
+        <!-- All Cards Container -->
+        <div class="lg:flex px-12 pb-4">
+          <!-- karta 1 -->
+          <div class="lg:w-4/12 m-4 shadow-md rounded-lg bg-white transform hover:scale-105 transition duration-500">
+            <img
+              src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+              alt="Zioła dla alergików">
+              <!-- zawartość karty 1  -->
+            <div class="p-4">
+              <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Zioła dla alergików</h3>
+              <p class="text-justify">Wykazuje działanie polegające na hamowaniu wyzwalania endogennej histaminy. Picie
+                naparu zalecane jest...</p>
+              <div class="mt-5">
+                <a href=""
+                  class="rounded-full py-2 px-3 font-semibold hover:text-white bg-gray-400 text-gray-300">Czytaj
+                  dalej...</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- karta 2 -->
+          <div class="lg:w-4/12 m-4 shadow-md rounded-lg bg-white transform hover:scale-105 transition duration-500">
+            <img
+              src="https://images.unsplash.com/photo-1495647688236-ed6ef40cb28b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+              alt="Pobór wody">
+              <!-- zawartość karty 2  -->
+            <div class="p-4">
+              <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Pobór wody</h3>
+              <p class="text-justify">Załącznik do uchwały nr Walnego Zebrania z dnia 23.04.2016r. ZASADY Korzystania z
+                poboru wody w ROD „Zacisze" w Toruniu...</p>
+              <div class="mt-5">
+                <a href=""
+                  class="rounded-full py-2 px-3 font-semibold hover:text-white bg-gray-400 text-gray-300">Czytaj
+                  dalej...</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- karta 3 -->
+          <div class="lg:w-4/12 m-4 shadow-md rounded-lg bg-white transform hover:scale-105 transition duration-500">
+            <img
+              src="https://images.unsplash.com/photo-1578302758063-0ef3e048ca89?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
+              alt="Najpiękniejszy ogród w mieście">
+            <!-- zawartość karty 3-->
+            <div class="p-4 container">
+              <h3 class="font-medium text-gray-600 text-lg my-2 uppercase">Najpiękniejszy ogród w mieście</h3>
+              <p class="text-justify">Trwa kolejna edycja konkursu "Najpiękniejszy ogród w mieście". Jeszcze przez
+                tydzień mieszkańcy Torunia mogą...</p>
+              <div class="mt-5">
+                <a href=""
+                  class="rounded-full py-2 px-3 font-semibold hover:text-white bg-gray-400 text-gray-300">Czytaj
+                  dalej...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- paginacja  -->
+      <div class="pb-40">
+        <ul class="flex justify-center">
+          <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-500 rounded-lg">
+              <a class="flex items-center font-bold" href="#">
+                  <span class="mx-1">Poprzednia</span>
+              </a>
+          </li>
+          <li class="mx-1 px-3 py-2 bg-gray-100 border-2  text-gray-400 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+              <a class="font-bold" href="#">1</a>
+          </li>
+          <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+              <a class="font-bold" href="#">2</a>
+          </li>
+          <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+              <a class="font-bold" href="#">3</a>
+          </li>
+          <li class="mx-1 px-3 py-2 bg-gray-200 text-gray-700 hover:bg-gray-700 hover:text-gray-200 rounded-lg">
+              <a class="flex items-center font-bold" href="#">
+                  <span class="mx-1">Następna</span>
+              </a>
+          </li>
+      </ul>
+    </div>
+    <!-- sekcja lokalizacja z górną krzywą linią  -->
+    <section class="relative py-20" id="mapa" data-aos="fade-down">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-6/12 ml-auto mr-auto p-4">
+            <div id="map" class="w-auto h-96"></div>
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4 flex justify-center text-center">
+            <div class="md:pr-12">
+              <div
+                class="text-black p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-400">
+                <i class="fas fa-map-marked-alt text-xl"></i>
+              </div>
+              <h3 class="text-3xl font-bold">Nasza lokalizacja</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Ulica Rudacka w Toruniu to położona z dala od miejskiego zgiełku i pośpiechu. Cechuje ją dogodna
+                lokalizacja (niedaleko brzegu Wisły) i świetne warunki. Jest to idealne miejsce na odpoczynek z rodziną.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- sekcja sklad zarzadu  -->
+    <section class="pt-20 pb-48" id="sklad">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-bold">Skład zarządu</h2>
+            <p class="text-lg leading-relaxed m-4 text-gray-600">
+              Przedstawiamy 3 najważniejsze osoby sprawujące władzę nad Rodzinnym Ogrodem Działkowym "Zacisze" w
+              Toruniu:
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap" data-aos="zoom-in-up">
+          <!-- pierwsza osoba  -->
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./img/jadzia.jpg" ; class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Jadwiga Makowska</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Prezeska Zarządu
+                </p>
+                <div class="mt-6">
+                  <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-twitter"></i></button><button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-facebook-f"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- druga osoba  -->
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./img/roman.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Roman Wójcik</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Wiceprezes
+                </p>
+                <div class="mt-6">
+                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-google"></i></button><button
+                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- trzecia osoba  -->
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img alt="..." src="./img/krzych.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Krzysztof Nowak</h5>
+                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  Skarbnik Zarządu
+                </p>
+                <div class="mt-6">
+                  <button class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-google"></i></button><button
+                    class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-twitter"></i></button><button
+                    class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button">
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- sekcja z ukośną linia  -->
+
+    <section class="pb-20 relative block bg-gray-900">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute  overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+
+      <div class="mx-auto px-4 lg:pt-24 lg:pb-64">
+
+      </div>
+    </section>
+
+
+
+    <!-- formularz nad footerem  -->
+    <section class="relative block pt-36 md:pt-40 pb-10 md:pb-12 lg:pb-40 lg:pt-4 bg-gray-900">
+      <div class="mx-auto px-4 md:px-40">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-bold">Masz jakieś pytania?</h4>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                  Jeśli tak, wypełnij formularz kontaktowy
+                </p>
+                <div class="relative w-full mb-3 mt-8">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">Twoje
+                    imię</label><input type="text"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Imię" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">Email</label><input
+                    type="email"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="message">Wiadomość</label><textarea rows="4" cols="80"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Wpisz wiadomość..."></textarea>
+                </div>
+                <div class="text-center mt-6">
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button" style="transition: all 0.15s ease 0s;">
+                    WYŚLIJ
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute  overflow-hidden -mt-20"
+      style="height: 80px;">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+
+
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold py-2">Bądzmy w kontakcie!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700 py-2">
+            Znajdź nas na innych platformach klikając w ikony poniżej lub skontaktuj się z nami, odpowiadamy w przeciągu
+            1-2 dni roboczych.
+          </h5>
+          <div class="mt-6 mb-6 flex justify-center md:justify-start">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full mr-2 "
+              type="button">
+              <i class="flex fab fa-twitter"></i></button><button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full"
+              type="button">
+              <i class="flex fab fa-facebook-square"></i></button>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">
+                  Nasz dokładny adres:
+                </span>
+                <ul class="text-gray-700 hover:text-gray-900 block text-sm">
+                  <li class="py-2">ul. Rudacka</li>
+                  <li>87-200 Toruń</li>
+                </ul>
+            </div>
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2 mt-4 lg:mt-0">Przejdź do:</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
+                    href="#wiadomosci">Wiadomości</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 block pb-2 text-sm" href="#mapa">Mapa</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 block pb-2 text-sm" href="#sklad">Skład
+                    zarządu</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- linia  -->
+      <hr class="my-6 border-gray-400" />
+
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-gray-600 font-semibold py-1">
+          Copyright © 2021 by Paulina Wiśniewska
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script.js" defer ></script>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD33BUu_8mHekgfdGfp_mHRqrleIvPFGjg&callback=initMap"></script>
+
+</html>
